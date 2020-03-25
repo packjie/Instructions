@@ -14,7 +14,7 @@
     -webkit-box-pack: space-between !important;
     -ms-flex-pack: space-between !important;
     justify-content: space-between !important;
-    padding: 0 1rem;
+    padding: 0 0 0 1rem;
     height: 54px;
     margin: -1px;
   }
@@ -83,6 +83,9 @@
     padding: 0;
     overflow-x: hidden;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    .nav-header {
+      padding: 0 1rem;
+    }
     .navbar-brand {
       width: 100%;
       margin-right: 0;

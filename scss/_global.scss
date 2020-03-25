@@ -1,6 +1,9 @@
 // Global styling for this template
-
+html{
+  height: 100%;
+}
 body {
+  height: 100%;
   @include body-font;
   padding-top: 54px;
   color: $gray-900;

@@ -4,7 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/deplgent/blob/master/LICENSE)
  */
 
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   font-family: Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
   color: #1f2f3d;
@@ -71,7 +76,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between !important;
-  padding: 0 1rem;
+  padding: 0 0 0 1rem;
   height: 54px;
   margin: -1px;
 }
@@ -144,6 +149,9 @@ p {
     overflow-x: hidden;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   }
+  #sideNav .nav-header {
+    padding: 0 1rem;
+  }
   #sideNav .navbar-brand {
     width: 100%;
     margin-right: 0;
@@ -178,6 +186,10 @@ p {
   }
 }
 
+.resume-section {
+  margin: 0;
+}
+
 .image-box {
   width: 100%;
   padding: .5rem 1rem;
@@ -204,11 +216,11 @@ p {
     padding: .5rem 2rem;
   }
   .image-box img {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
   }
   .image-box.w-80 img {
-    width: 35%;
+    width: 65%;
     margin: 0 auto;
   }
   .mobile {
@@ -281,6 +293,55 @@ table.table td, table.table th {
 
 .footer p a:hover {
   cursor: pointer;
+}
+
+#select-top {
+  padding: 0;
+}
+
+#select-top .footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.dis-center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+}
+
+.dis-center .header {
+  margin-bottom: 30px;
+  font-size: 1.5em;
+}
+
+.dis-center .select-btn {
+  border: 0;
+  background-color: #3F92FF;
+  width: 300px;
+  border-radius: 40px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+}
+
+.dis-center .select-btn a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  padding: 10px;
+  display: block;
+}
+
+.dis-center .select-btn:hover {
+  color: #fff;
+  background-color: #1989fa;
 }
 
 .bg-primary {
