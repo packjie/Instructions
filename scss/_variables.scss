@@ -1,0 +1,39 @@
+// Variables
+
+// Restate Bootstrap Variables
+
+$white:    #fff !default;
+$gray-100: #EFF1F4 !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #5e6d82 !default;
+$gray-700: #9B9B9B !default;
+$gray-800: #4A4A4A !default;
+$gray-900: #1f2f3d !default;
+$black:    #000 !default;
+
+$blue:    #3F92FF !default;
+$indigo:  #F3FBFF !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #BD5D38 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$primary:       $white !default;
+$secondary:     $gray-600 !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+// Page Variables
+
+$sidebar-base-width: 250px;
